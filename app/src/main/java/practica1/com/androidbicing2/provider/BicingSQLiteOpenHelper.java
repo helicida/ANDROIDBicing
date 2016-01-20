@@ -1,4 +1,4 @@
-package practica1.com.androidbicing.provider;
+package practica1.com.androidbicing2.provider;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
 import android.util.Log;
 
-import practica1.com.androidbicing.BuildConfig;
-import practica1.com.androidbicing.provider.stations.StationsColumns;
+import practica1.com.androidbicing2.BuildConfig;
+import practica1.com.androidbicing2.provider.stations.StationsColumns;
 
 public class BicingSQLiteOpenHelper extends SQLiteOpenHelper {
     private static final String TAG = BicingSQLiteOpenHelper.class.getSimpleName();

@@ -1,4 +1,4 @@
-package practica1.com.androidbicing;
+package practica1.com.androidbicing2;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

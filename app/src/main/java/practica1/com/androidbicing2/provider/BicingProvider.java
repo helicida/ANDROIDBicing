@@ -1,4 +1,4 @@
-package practica1.com.androidbicing.provider;
+package practica1.com.androidbicing2.provider;
 
 import java.util.Arrays;
 
@@ -9,9 +9,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.util.Log;
 
-import practica1.com.androidbicing.BuildConfig;
-import practica1.com.androidbicing.provider.base.BaseContentProvider;
-import practica1.com.androidbicing.provider.stations.StationsColumns;
+import practica1.com.androidbicing2.BuildConfig;
+import practica1.com.androidbicing2.provider.base.BaseContentProvider;
+import practica1.com.androidbicing2.provider.stations.StationsColumns;
 
 
 public class BicingProvider extends BaseContentProvider {

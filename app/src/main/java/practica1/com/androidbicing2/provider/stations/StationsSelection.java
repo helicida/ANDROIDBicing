@@ -1,4 +1,4 @@
-package practica1.com.androidbicing.provider.stations;
+package practica1.com.androidbicing2.provider.stations;
 
 
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.ContentResolver;
 import android.database.Cursor;
 import android.net.Uri;
 
-import practica1.com.androidbicing.provider.base.AbstractSelection;
+import practica1.com.androidbicing2.provider.base.AbstractSelection;
 
 
 /**

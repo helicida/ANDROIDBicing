@@ -1,4 +1,4 @@
-package practica1.com.androidbicing;
+package practica1.com.androidbicing2;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -12,14 +12,11 @@ import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
-import java.util.List;
-
-import practica1.com.androidbicing.provider.stations.StationsColumns;
-import practica1.com.androidbicing.provider.stations.StationsContentValues;
+import practica1.com.androidbicing2.provider.stations.StationsColumns;
+import practica1.com.androidbicing2.provider.stations.StationsContentValues;
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.GsonConverterFactory;
@@ -43,12 +40,12 @@ public class MainActivityFragment extends Fragment implements LoaderManager.Load
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View mainActivityFragment =  inflater.inflate(R.layout.fragment_main, container, false);
+        View mainActivityFragment =  inflater.inflate(practica1.com.androidbicing2.R.layout.fragment_main, container, false);
         createRetrofit();
         downloadStations();
 
-        ListView listView = (ListView) mainActivityFragment.findViewById(R.id.LVstations);
-        Button openMap = (Button) mainActivityFragment.findViewById(R.id.BTmap);
+        ListView listView = (ListView) mainActivityFragment.findViewById(practica1.com.androidbicing2.R.id.LVstations);
+        Button openMap = (Button) mainActivityFragment.findViewById(practica1.com.androidbicing2.R.id.BTmap);
         openMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -59,7 +56,7 @@ public class MainActivityFragment extends Fragment implements LoaderManager.Load
         });
         adapter = new BicingAdapter(
                 getContext(),
-                R.layout.listview_layout,
+                practica1.com.androidbicing2.R.layout.listview_layout,
                 null,
                 new String[] {
                         StationsColumns._ID,
@@ -72,16 +69,16 @@ public class MainActivityFragment extends Fragment implements LoaderManager.Load
                         StationsColumns.NEARBYSTATIONS,
                         StationsColumns.SLOTS,
                         StationsColumns.STATUS},
-                new int[] { R.id.TVid,
-                        R.id.TVbikes,
-                        R.id.TVstreetNumber,
-                        R.id.TVstreetName,
-                        R.id.TValtitude,
-                        R.id.TVlatitude,
-                        R.id.TVlongitude,
-                        R.id.TVnearbyStations,
-                        R.id.TVslots,
-                        R.id.TVstatus},
+                new int[] { practica1.com.androidbicing2.R.id.TVid,
+                        practica1.com.androidbicing2.R.id.TVbikes,
+                        practica1.com.androidbicing2.R.id.TVstreetNumber,
+                        practica1.com.androidbicing2.R.id.TVstreetName,
+                        practica1.com.androidbicing2.R.id.TValtitude,
+                        practica1.com.androidbicing2.R.id.TVlatitude,
+                        practica1.com.androidbicing2.R.id.TVlongitude,
+                        practica1.com.androidbicing2.R.id.TVnearbyStations,
+                        practica1.com.androidbicing2.R.id.TVslots,
+                        practica1.com.androidbicing2.R.id.TVstatus},
                 0);
         listView.setAdapter(adapter);
         getLoaderManager().restartLoader(0, null, this);

@@ -1,4 +1,4 @@
-package practica1.com.androidbicing.provider.base;
+package practica1.com.androidbicing2.provider.base;
 
 import java.util.Date;
 import java.util.HashMap;

@@ -1,10 +1,10 @@
-package practica1.com.androidbicing.provider.stations;
+package practica1.com.androidbicing2.provider.stations;
 
 import android.database.Cursor;
 
 import android.support.annotation.Nullable;
 
-import practica1.com.androidbicing.provider.base.AbstractCursor;
+import practica1.com.androidbicing2.provider.base.AbstractCursor;
 
 
 /**

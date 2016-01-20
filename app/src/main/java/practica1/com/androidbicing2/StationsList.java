@@ -1,5 +1,5 @@
 
-package practica1.com.androidbicing;
+package practica1.com.androidbicing2;
 
 import java.util.ArrayList;
 import java.util.List;

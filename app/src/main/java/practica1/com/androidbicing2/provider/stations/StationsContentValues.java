@@ -1,14 +1,13 @@
-package practica1.com.androidbicing.provider.stations;
+package practica1.com.androidbicing2.provider.stations;
 
 
 
 import android.content.Context;
 import android.content.ContentResolver;
 import android.net.Uri;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import practica1.com.androidbicing.provider.base.AbstractContentValues;
+import practica1.com.androidbicing2.provider.base.AbstractContentValues;
 
 
 /**

@@ -1,10 +1,10 @@
-package practica1.com.androidbicing.provider;
+package practica1.com.androidbicing2.provider;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import practica1.com.androidbicing.BuildConfig;
+import practica1.com.androidbicing2.BuildConfig;
 
 /**
  * Implement your custom database creation or upgrade code here.

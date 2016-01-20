@@ -1,9 +1,9 @@
-package practica1.com.androidbicing.provider.stations;
+package practica1.com.androidbicing2.provider.stations;
 
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-import practica1.com.androidbicing.provider.BicingProvider;
+import practica1.com.androidbicing2.provider.BicingProvider;
 
 
 /**
